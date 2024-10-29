@@ -1,0 +1,31 @@
+backend/
+│
+├── config/
+│   └── db.js               // Configuración de la base de datos usando MongoDB
+│
+├── controllers/
+│   └── carController.js    // Controlador de autos
+│   └── chatController.js    // Controlador del chat
+│   └── geminiController.js    // Controlador de la IA
+│   └── userController.js    // Controlador de usuario
+│
+├── middlewares/
+│   └── isAuth.js            // Middleware para autenticación
+│   └── sendMail.js            // Middleware para enviar emails
+│
+├── models/
+│   └── carModel.js         // Modelo de autos sin Mongoose
+│   └── chatModel.js         // Modelo de chat sin Mongoose
+│   └── conversationModel.js // Modelo de conversación sin Mongoose
+│   └── userModel.js         // Modelo de usuario sin Mongoose│
+│
+├── routes/
+│   └── carRoutes.js        // Rutas de autos
+│   └── chatRoutes.js        // Rutas de chat
+│   └── geminRoutes.js        // Rutas de Gemini
+│   └── userRoutes.js        // Rutas de usuario
+│
+│
+├── .env                     // Variables de entorno
+├── package.json             // Dependencias y scripts
+└── index.js                 // Punto de entrada principal
